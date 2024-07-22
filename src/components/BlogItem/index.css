@@ -1,0 +1,59 @@
+/* Write your CSS code here */
+.blog-img {
+  width: 40%;
+  margin-right: 15px;
+}
+.author-img {
+  border-radius: 50px;
+  width: 40px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .blog-img {
+    width: 100%;
+  }
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  border: 1px solid #8e8e8e;
+  padding: 15px;
+  border-radius: 4px;
+  width: 96%;
+}
+@media screen and (max-width: 767px) {
+  .list-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.author-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topic-name {
+  color: #8e8e8e;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+}
+.titile-name {
+  color: #000000;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 22px;
+}
+.author-name {
+  color: #d3d3d3;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  margin: 15px;
+}

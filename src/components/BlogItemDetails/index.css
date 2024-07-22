@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.blog-details-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .blog-details-container {
+    width: 90%;
+  }
+}
+.blog-item-author-img {
+  border-radius: 50px;
+  width: 40px;
+  margin-right: 10px;
+}
+.blog-item-author-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-start;
+}
+.blog-item-img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+.blog-item-titile-name {
+  color: #000000;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 34px;
+  text-align: center;
+}
+.blog-item-description {
+  color: #2f4f4f;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  align-self: flex-start;
+}
